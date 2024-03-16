@@ -17,8 +17,8 @@ const Footer = () => {
       {/* Top Footer */}
       <div className="flex flex-col items-start gap-10 xl:gap-0 xl:flex-row xl:items-start py-24 mt-8">
         {/* First Section */}
-        <div className="flex flex-col gap-4 xl:w-2/6 ">
-          <img src={logo} alt="logo" width={350} height={100} />
+        <div className="flex flex-col gap-4 xl:w-2/6 pl-9 ">
+          <img src={logo} alt="logo" width={290} height={100} />
         </div>
 
         {/* Second Section */}
