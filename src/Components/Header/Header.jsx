@@ -1,12 +1,19 @@
-import React from 'react';
-import Logo from '../../assets/images/logo.png'; // Import your logo image
+import React from "react";
+import Logo from "../../assets/images/logo.png"; // Import your logo image
+import HeaderImage from "../../assets/images/Capture.png"; // Import your header image
 
 const Header = () => {
   return (
-    <div className=" py-4 pb-16">
-      <div className="container mx-auto flex items-center justify-between">
-        <div className=" flex items-start">
-        <img src={Logo} alt="logo" width={170} height={90} />
+    <div className="relative pb-96 ">
+      <img
+        src={HeaderImage}
+        alt="header"
+        className="absolute inset-0 w-full h-90 object-cover z-0"
+      />
+
+      <div className=" container mx-auto relative z-10 flex items-center justify-between py-4 pb-16">
+        <div className="flex items-start">
+          <img src={Logo} alt="logo" width={180} height={100} />
         </div>
         <nav className="bg-white border rounded-xl px-14 py-2">
           {/* Navbar items go here */}
@@ -19,11 +26,14 @@ const Header = () => {
           </ul>
         </nav>
         <div className="flex items-center space-x-4">
-          <button className="bg-blue-400 text-white py-2 px-9 rounded-lg hover:bg-blue-600 transition duration-300 ease-in-out">ADMIN</button>
-          <button className="bg-orange-500 text-white py-2 px-9 rounded-lg hover:bg-orange-600 transition duration-300 ease-in-out">USER</button>
+          <button className="bg-blue-400 text-white py-2 px-9 rounded-lg hover:bg-blue-600 transition duration-300 ease-in-out">
+            ADMIN
+          </button>
+          <button className="bg-orange-500 text-white py-2 px-9 rounded-lg hover:bg-orange-600 transition duration-300 ease-in-out">
+            USER
+          </button>
         </div>
       </div>
-    
     </div>
   );
 };

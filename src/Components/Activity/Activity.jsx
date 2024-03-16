@@ -14,7 +14,7 @@ const Activity = () => {
   };
 
   return (
-    <div className="text-center pt-11">
+    <div className="text-center pt-40">
     {/* Heading */}
     <h2 className="text-2xl lg:text-5xl text-blue-400 font-bold mb-4">
     ACTIVITY CARDS  </h2>

@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Footer */}
-      <div className="fixed bottom-4 left-0 w-full bg-white border-t-2 border-gray-500/40 py-3 text-gray-700">
+      <div className=" bottom-4 left-0 w-full bg-white border-t-2 border-gray-500/40 py-3 text-gray-700">
         <p className=" text-lg text-center text-gray-600">
           © 2024 Base. All rights reserved
         </p>
