@@ -5,6 +5,7 @@ import Services from './Components/Services Cards/Services';
 import Faq from './Components/FAQ/Faq';
 import Footer from './Components/Footer/Footer';
 import Activity from './Components/Activity/Activity';
+import ChooseUs from './Components/WhyChooseUs/ChooseUs';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <Activity/>
       <Services/>
+      <ChooseUs/>
       <Faq/>
       <Footer/>
     </>
