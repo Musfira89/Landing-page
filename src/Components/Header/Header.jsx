@@ -4,7 +4,7 @@ import HeaderImage from "../../assets/images/Capture.png"; // Import your header
 
 const Header = () => {
   return (
-    <div className="relative pb-96 ">
+    <div className="relative pb-72  ">
       <img
         src={HeaderImage}
         alt="header"
@@ -13,11 +13,11 @@ const Header = () => {
 
       <div className=" container mx-auto relative z-10 flex items-center justify-between py-4 pb-16">
         <div className="flex items-start">
-          <img src={Logo} alt="logo" width={180} height={100} />
+          <img src={Logo} alt="logo" width={170} height={100} />
         </div>
         <nav className="bg-white border rounded-xl px-14 py-2">
           {/* Navbar items go here */}
-          <ul className="flex items-center space-x-4 p-2">
+          <ul className="flex items-center space-x-9 p-2">
             <li className="text-blue-400 font-semibold text-lg">HOME</li>
             <li className="text-blue-400 font-semibold text-lg">ACTIVITY</li>
             <li className="text-blue-400 font-semibold text-lg">SERVICES</li>

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
+import Qrcode from "../../assets/images/Qrcode.png";
 
 const Footer = () => {
   return (
@@ -48,6 +49,8 @@ const Footer = () => {
           <h1 className="text-blue-400 font-bold text-3xl">Helpline</h1>
           <ul className=" text-gray-700 flex flex-col gap-4">
             <li>+92-308-2220203 (WhatsApp)</li>
+            <h1 className=" text-blue-400 font-bold text-3xl">QR Code</h1>
+            <img src={Qrcode} alt="logo" width={100} height={50} />
           </ul>
         
         </div>
