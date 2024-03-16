@@ -1,0 +1,179 @@
+.choose {
+    margin: 1rem;
+    color: #2FB1CE;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+
+
+}
+
+.textus {
+    width: 940px;
+    margin-left: 450px;
+    font-style: oblique;
+    color: #000000;
+    font-size: 25px;
+    justify-content: center;
+
+}
+
+.main {
+    background-color: #ffffff;
+    width: 900px;
+    height: 600px;
+    justify-content: center;
+    margin-left: 100px;
+    position: relative;
+
+
+}
+
+.inner {
+    background-color: #ffffff;
+    width: 700px;
+    height: 500px;
+    align-content: center;
+    position: absolute;
+    left: 60%;
+    right: 60%;
+    top: 50%;
+    transform: translate(-70%, -50%);
+    justify-content: center;
+    display: inline-block;
+}
+
+.rectangle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #28a5df;
+    margin-right: 5px;
+    /* Adjust spacing between rectangle and text */
+    border-radius: 5px;
+    background-origin: padding-box;
+}
+
+.text4 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.rectangle1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #28a5df;
+    margin-right: 530px;
+    margin-top: 2cap;
+    /* Adjust spacing between rectangle and text */
+    border-radius: 5px;
+    background-origin: padding-box;
+}
+
+.text5 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 140px;
+    transform: translateY(-43px);
+    /* Adjust the value for desired elevation */
+}
+
+
+.rectangle2 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #28a5df;
+    margin-right: 535px;
+    transform: translateY(-43px);
+    /* Adjust spacing between rectangle and text */
+    border-radius: 5px;
+    background-origin: padding-box;
+
+}
+.text6 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 140px;
+    transform: translateY(-84px);
+    /* Adjust the value for desired elevation */
+}
+
+.rectangle3 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #28a5df;
+    margin-right: 535px;
+    transform: translateY(-80px);
+    /* Adjust spacing between rectangle and text */
+    border-radius: 5px;
+    background-origin: padding-box;
+}
+.text7 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 140px;
+    transform: translateY(-125px);
+    /* Adjust the value for desired elevation */
+}
+.rectangle4 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #28a5df;
+    margin-right: 535px;
+    transform: translateY(-120px);
+    /* Adjust spacing between rectangle and text */
+    border-radius: 5px;
+    background-origin: padding-box;
+}
+.text8{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 140px;
+    transform: translateY(-160px);
+    /* Adjust the value for desired elevation */
+}
+.rectangle5 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #28a5df;
+    margin-right: 535px;
+    transform: translateY(-160px);
+    /* Adjust spacing between rectangle and text */
+    border-radius: 5px;
+    background-origin: padding-box;
+}
+.text9{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 140px;
+    transform: translateY(-200px);
+    /* Adjust the value for desired elevation */
+}
+
+
+.pic {
+    background-color: #8b3232;
+    width: 900px;
+    height: 600px;
+    margin: 300px;
+    margin-top: -616px;
+    margin-left: 900px;
+    position: relative;
+}
