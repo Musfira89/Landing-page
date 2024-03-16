@@ -15,8 +15,8 @@ const Services = () => {
         features?{" "}
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center p-48 pt-14  ">   
-           {services.map((service, index) => (
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center p-48 pt-14  ">
+        {services.map((service, index) => (
           <ServiceCard key={index} service={service} index={index} />
         ))}
       </div>
@@ -33,23 +33,20 @@ const ServiceCard = ({ service, index }) => {
     borderColor = "border-blue-400 border-l-4";
   } else if (index === 1) {
     borderColor = "border-orange-400 border-b-4";
-  }
-   else if (index === 2) {
+  } else if (index === 2) {
     borderColor = "border-blue-400 border-r-4";
-  }
-  else if (index === 3) {
+  } else if (index === 3) {
     borderColor = "border-blue-400 border-r-4";
-  }
-  else if (index === 4) {
+  } else if (index === 4) {
     borderColor = "border-orange-400 border-b-4";
-  }
-  else if (index === 5) {
+  } else if (index === 5) {
     borderColor = "border-blue-400 border-l-4";
   }
 
-
   return (
-    <div className={`bg-white p-12 m-2 rounded-lg shadow-lg ${borderColor}`}>
+    <div
+      className={`bg-white p-12 m-2 rounded-lg shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 ${borderColor}`}
+    >
       <img src={icon} alt={title} className="w-12 h-12 mx-auto mb-4" />
       <h3 className="text-lg font-bold mb-2 text-blue-400 text-center">
         {title}

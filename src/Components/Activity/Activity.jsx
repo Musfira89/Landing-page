@@ -23,7 +23,7 @@ const Activity = () => {
     <p className="text-gray-600 mb-6">
     Explore a variety of engaging activities to support your child's development
     </p>
-    <div className="flex flex-wrap justify-center items-center pb-60 pt-12 gap-1 rounded-3xl">
+    <div className="flex flex-wrap justify-center items-center pb-36 pt-12 gap-1 rounded-3xl">
       {(showAll ? activities : activities.slice(0, 3)).map((activity) => (
         <div key={activity.id} className="w-full md:w-1/4 px-2">
           <ActivityCard
