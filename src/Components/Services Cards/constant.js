@@ -1,5 +1,5 @@
 // constants.js
-export const servicesData1= [
+ const servicesData= [
     {
       id: 1,
       title: "Self Assessment",
@@ -18,9 +18,6 @@ export const servicesData1= [
       description: "Connect with professionals and resources for further evaluation",
       icon: "https://png.pngtree.com/png-vector/20191023/ourmid/pngtree-vector-location-icon-png-image_1851683.jpg", // Icon ka naam ya path
     },
-    
-  ];
-  export const servicesData2= [
     {
       id: 4,
       title: "Virtual Chatbot",
@@ -41,4 +38,5 @@ export const servicesData1= [
     },
     
   ];
-  
+
+  export default servicesData;

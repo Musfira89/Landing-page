@@ -17,7 +17,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-full pt-24 pb-24">
+    <div className="flex flex-col items-center justify-center h-full pt-19 pb-24">
       <div className="w-full md:w-2/3 lg:w-1/2 px-8 py-12">
         {/* Heading */}
         <h2 className="text-2xl lg:text-5xl font-bold mb-4 text-center">
