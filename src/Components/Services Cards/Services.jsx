@@ -6,7 +6,8 @@ const Services = () => {
   const services = serviceData;
 
   return (
-    <div className="services-container">
+    <div className="services-container ">
+      
       <h2 className="text-2xl lg:text-5xl font-bold mb-4 text-center">
         OUR <span className="text-blue-400"> SERVICES</span>{" "}
       </h2>
@@ -45,7 +46,7 @@ const ServiceCard = ({ service, index }) => {
 
   return (
     <div
-      className={`bg-white p-12 m-2 rounded-lg shadow-lg cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 ${borderColor}`}
+      className={`bg-white p-12 m-2 rounded-lg shadow-xl border cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 ${borderColor}`}
     >
       <img src={icon} alt={title} className="w-12 h-12 mx-auto mb-4" />
       <h3 className="text-lg font-bold mb-2 text-blue-400 text-center">
